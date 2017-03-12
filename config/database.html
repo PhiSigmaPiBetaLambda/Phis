@@ -1,0 +1,8 @@
+create database radiant_dev;
+create database radiant_test;
+create database radiant_production;
+
+grant all on radiant_dev.* to u@'%' identified by 'pw';
+grant all on radiant_test.* to u@'%' identified by 'pw';
+grant all on radiant_production.* to u@'%' identified by 'pw';
+flush privileges;
