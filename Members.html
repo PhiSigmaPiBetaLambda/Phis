@@ -18,51 +18,47 @@
       p.ex1 {color: #140099 ; text-align: left; font-family: Times New Roman; font-size: 50px; margin: 1cm 2cm;}
       p.ex2 {color: #140099 ; text-align: left; font-family: Times New Roman; font-size: 50px; margin: 1cm 2cm;}
       p.ex3 {color: #140099 ; text-align: left; font-family: Times New Roman; font-size: 50px; margin: 1cm 2cm;}
-  div.gallery:hover {border: 1px solid #777;}
-  div.gallery img {width: "50px" height: "50px";}div.desc {padding: 15px;text-align: center;}
-* {box-sizing: none;}
-.responsive {padding: 0 6px;float: left;width: 24.99999%;}
-@media only screen and (max-width: "70px"){
-    .responsive {width: 49.99999%;margin: 6px 0;}
+ div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
 }
-@media only screen and (max-width: "50px"){
-    .responsive {
-        width: "50px";
-    }
+
+div.gallery:hover {
+    border: 1px solid #777;
 }
-.clearfix:after {
-    content: "";
-    display: table;
-  clear: both;}
- </style>
- </head>
- <body>
-  <ul>
-     <li><a class="active" href="https://phisigmapibetalambda.github.io/Phis//">Home</a></li>
-     <li><a href="about.html">About Me</a></li>
-     <li><a href="https://en.wikipedia.org/wiki/Contact_(1997_American_film)">Contact</a></li>
-     <li><a href="about.html">Newsletter</a></li>
-     <li><a href="about.html">Weekly Minutes</a></li>
-     <li><a href="store.html">Store</a></li>
-     <li><a href="Members.html">Our Members</a></li>
-     </ul>
-   <div class="gallery">
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
   <a target="_blank" href="fjords.jpg">
-    <img src="fjords.jpg" alt="Fjords" width="50" height="50">
+    <img src="fjords.jpg" alt="Fjords" width="300" height="200">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
-   
+
 <div class="gallery">
   <a target="_blank" href="forest.jpg">
-    <img src="forest.jpg" alt="Forest" width="50px" height="50px">
+    <img src="forest.jpg" alt="Forest" width="300" height="200">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
-   
+
 <div class="gallery">
   <a target="_blank" href="lights.jpg">
-    <img src="lights.jpg" alt="Northern Lights" width="50px" height="50px">
+    <img src="lights.jpg" alt="Northern Lights" width="300" height="200">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
