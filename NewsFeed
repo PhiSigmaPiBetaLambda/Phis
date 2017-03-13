@@ -31,3 +31,13 @@
       <li><a href="https://en.wikipedia.org/wiki/Contact_(1997_American_film)">Contact</a></li>
      </div>
      </ul>
+     <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://www.facebook.com/bryan.schonhaut.75";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like-box" data-href="http://www.facebook.com/FacebookDevelopers" data-width="The pixel width of the plugin" data-height="The pixel height of the plugin" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
